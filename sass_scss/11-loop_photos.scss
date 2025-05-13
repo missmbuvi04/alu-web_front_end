@@ -1,0 +1,12 @@
+// Import the necessary resources
+@import 'path/to/your/resources';  // Adjust the path as needed
+
+// List of names
+$list-names: julien john sam damian;
+
+// Loop through each name and create a class
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
