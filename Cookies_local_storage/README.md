@@ -1,0 +1,1 @@
+This is my Cookies_local_storage README file.
